@@ -1,24 +1,46 @@
-.container {
-    width: 70%;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
+.container {
+    width: 1170px;
     margin: 0 auto;
 }
 
 .feedback_heading {
     text-align: center;
     font-size: 50px;
+    border-bottom: 5px soild green;
+    position: relative;
+
+}
+
+.feedback_heading::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 99px;
+
 }
 
 .feedback_list {
     display: flex;
+    gap: 20px;
     flex-wrap: wrap;
     margin-top: 20px;
 }
 
 .feedback_item {
-    gap: 10px;
-    width: 33.33%;
     display: flex;
+    flex: 30%;
+
 }
 
 .feedback_avatar {
@@ -26,10 +48,10 @@
     height: 60px;
     border-radius: 50%;
     object-fit: cover;
-    margin-right: 20px;
-
+    margin-right: 10px;
 }
 
 .feedback_para {
     width: 280px;
+
 }

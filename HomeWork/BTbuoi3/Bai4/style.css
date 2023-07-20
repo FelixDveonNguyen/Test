@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.conatiner {
+    width: 800px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.national_list {
+    display: inline-flex;
+    border: 1px solid yellow;
+
+}
+
+.national_list li {
+    padding: 15px 60px;
+}
+
+.active {
+    background-color: gold;
+
+}
+
+.map_row {
+    margin-top: 60px;
+    background-color: rgb(175, 173, 173);
+    display: flex;
+    justify-content: space-between;
+}
+
+.addres {
+    margin: 50px 0px 30px 40px;
+}
+
+.para {
+    margin-left: 40px;
+}
+
+.tel {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.test:hover {
+    transition: ease-in-out 0.2s;
+    background-color: gold;
+}
