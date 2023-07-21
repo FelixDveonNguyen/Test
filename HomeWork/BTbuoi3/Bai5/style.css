@@ -1,0 +1,43 @@
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.box {
+    background-color: gray;
+    width: 150px;
+    text-align: center;
+    margin: 50px auto 0;
+    padding: 10px 16px;
+}
+
+.hightlight {
+    color: rgb(82, 123, 199);
+}
+
+.para {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.para2 {
+    text-align: center;
+}
+
+.buton {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.bt_child {
+    padding: 15px 30px;
+    border-radius: 4px;
+    border: transparent;
+    font-size: 20px;
+    color: antiquewhite;
+    background-color: gray;
+}
