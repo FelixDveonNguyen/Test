@@ -1,0 +1,40 @@
+.conatiner {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.title {
+    font-size: 35px;
+    text-align: center;
+    color: #490707;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.heading {
+    text-align: center;
+    color: #490707;
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.book_item {
+    padding: 10px 40px;
+    border-radius: 4px;
+
+}
+
+.btn {
+    padding: 10px 40px;
+    border-radius: 4px;
+}
+
+.book {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap: 20px; */
+    row-gap: 20px;
+    column-gap: 20px;
+}
